@@ -1,0 +1,114 @@
+
+.heading 
+{ 
+  width : 100% ;
+  margin:0px ;    
+  box-shadow:  inset 20px 20px 10px 2px lime  ;  
+  border-radius: 1em;   
+  border-color:  aquamarine 25px ;
+  background-color: aqua; 
+  user-select: none;
+}
+
+ 
+#heck 
+{
+float: left;      ;  
+margin:15px ;   
+box-shadow: inset 20px 20px 20px 10px cyan;  
+}
+
+
+  html , body 
+{
+      background-size:cover;
+}   
+button {
+    height: 50px ;
+width : 60px 
+} 
+#heck , #feck :hover 
+{
+   
+    background-color:darkblue ;
+    
+    
+} 
+
+
+@keyframes floating {
+0% { transform: translate(0,  0px); }
+50%  { transform: translate(0, 10px); }
+100%   { transform: translate(0, -0px); }    
+}
+ 
+.salmon 
+{
+    float : center ; 
+    position : absolute ; 
+    margin:15px ;   
+    box-shadow: inset 20px 20px 20px 10px rgb(44, 179, 179);
+}    
+canvas 
+{    
+    border-color :rgb(44, 179, 179) ; 
+    justify-items: center;
+    user-select: none;
+
+} 
+video   
+{ 
+    justify-items: center; 
+    user-select: none;
+
+} 
+
+#feck 
+{
+float: left;      ;  
+margin:15px ;   
+box-shadow: inset 20px 20px 20px 10px cyan;  
+user-select: none;
+
+} 
+body{
+    background-image: linear-gradient(lime , aqua) ;
+} 
+ 
+.border 
+{
+     border-radius: 50px;
+     user-select: none;
+}
+ 
+
+#photo 
+{  
+    height : 100px ;  
+    width : 100px ; 
+    border-radius: 50px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    user-select: none;
+
+} 
+hr 
+{
+     color: rgb(30, 235, 105); 
+     background-color: rgb(30, 235, 105); 
+     width :100%  ;
+     height :10px; 
+     border-radius: 1em;
+
+} 
+a 
+{
+    color : forestgreen 
+} 
+
+a:hover 
+{
+    color : rgb(0, 38, 255) 
+}
